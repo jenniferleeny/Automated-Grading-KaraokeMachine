@@ -1,4 +1,5 @@
-# KaraokeMachine
+## KaraokeMachine
+#Winter 2016
 Karaoke Machine and Grader
 
 My project is a voice-grading karaoke machine that plays music, records your voice, and prints lyrics on the screen simultaneously for the karaoke component. This program also grades the user's singing based on frequency matching of the real audio file and the user's recorded file for the voice-grading component. The score will lead after the song ends.
