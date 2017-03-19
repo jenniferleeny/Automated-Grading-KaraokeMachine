@@ -1,0 +1,23 @@
+Modules and most important functions
+
+1. PyAudio
+
+the most important functions from this module were primarily recording and playing audio files.
+
+2. Aubio
+
+Aubio was crucial for my project because it was how I managed to retrieve the frequency of the audio into an array.
+ 
+3. threading
+
+I mostly used threading.Thread() from the threading module. However it was crucial in order to play and record at the same time or else users would have to listen from a different while the program is recording.
+
+4. Tkinter
+
+Even though Tkinter basic, it sufficed as the interface for the karaoke machine component of my program. Overall, timerFired was really important because it was the only way to track the timing of the verses. 
+
+User Interface
+
+Overall, I wanted my UI to be clean and simple. Looking at other karaoke programs during competitive analysis, I realized I disliked the overly colorful or cluttered interfaces, so I stuck with a classic black and white karaoke machine with album cover images to give it more personality. 
+
+For example, OneKaraoke’s (http://www.onekaraoke.com/1k/download.html) UI color scheme clashes, and I wanted to avoid that. 

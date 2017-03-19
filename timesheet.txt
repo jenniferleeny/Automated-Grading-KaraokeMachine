@@ -1,0 +1,18 @@
+TIMESHEET
+
+11/18/16 - 3 hours
+11/21/16 - 5 hours
+11/22/16 - 2 hours
+11/25/16 - 2 hours
+11/26/16 - 4 hours
+11/29/16 - 5 hours
+11/30/16 - 6 hours
+12/1/16 - 2 hours
+12/3/16 - 4 hours
+12/4/16 - 4 hours
+12/5/16 - 9 hours
+12/6/16 - 4 hours
+12/7/16 - 6 hours
+12/8/16 - 7 hours
+
+total: 63 hours

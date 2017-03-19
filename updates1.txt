@@ -1,0 +1,20 @@
+File: KaraokeMachine.py
+1. tried out many pitch matching algorithms
+	a. average pitch for every 0.25 seconds
+	b. matching notes with in a 5-millisecond range
+	c. consider multiple cases for silent beats found in either audio file.
+	d. combination of b. and c.
+
+2. Wrote a function that filter out white noise based on the placement of the frequency
+
+3. Spliced out extra samples from the beginning and end of the audio such that audio file is easier to grade (i.e. extra frames = instrumental intro where no vocals are heard)
+
+4. Researched and Worked on lyric matching
+	a. updated the speech recognition function and threaded it so that it can detect speech while the person is singing instead of analyzing the audio file
+
+File: timesheet
+updated hours 
+
+New Files
+1. New Audio Testing Files: YouBelongwithMeShortIsolated.wav
+(Note: I used a program to shorten the audio files and to isolate the singer’s voice)

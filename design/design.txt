@@ -1,0 +1,15 @@
+Design: Automated Grading Karaoke Machine
+
+The purpose of my project is to grade users on their singing based on mostly intonation since one of the fundamental pillars of music is pitch. Because the main criteria is intonation, the target audience is inexperienced users who are looking to see how well they sing whether it’s for fun or for a potential audition/performance. For example, while I was testing my program a lot, I realized that I’m usually off key, resulting in poor score results. 
+
+My approach can be separated into two parts: Karaoke and grading algorithm. 
+
+The biggest issue I faced while coding the Karaoke part was the lyrics. Using speech recognition to flag the time that songs went from verse to verse was not viable, so I had to manually go around it by timing the verses of the songs. In addition, while there were many ways to time the verses in Tkinter, I used time.time() to check the difference the current time from the start time.
+
+For the algorithm part, my approach was frequency. Using the frequency array of both the user’s audio recording the real audio file, I iterated through them multiple times to:
+1) reduce white noise
+2) check for frequency matches such that octaves are included
+3) give a certain range for users to hit notes (5/21st of a second to a note)
+4) Check for silent notes
+
+As a result, it is essentially impossible to score a 100 unless you compare the same audio file with itself.

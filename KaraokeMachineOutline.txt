@@ -1,0 +1,52 @@
+10/30/16
+15-112: KaraokeMachine Outline
+I. Algorithm(myInput, SongInput): compare myIntonation&songIntonation and myLyrics&songLyrics and algorithimize a score on a scale of 1 to 100. Factor in other aspects of singing such as range/loudness
+	A. Lyrics
+	B. Pitch/Intonation
+	D. Range(piano —> forte)/Loudness (optional)
+II. Read Original MP3: instead of manual inputs, have the program record lyrics from the song and the notes in the song and input them into lists.
+	A. Lyrics
+	B. Melody
+III. Graphics
+	A. Lyrics
+	B. HighLighting words
+	C. Visualizations (optional)
+IV. Upgrade/Extra Ideas
+	A. Report: tell user where they messed up
+	B. Accept harmonization(P4, P5)
+	C. Partners(?) High Difficulty Level
+	D. track vibrato in user’s voice
+
+11/20/16
+
+Modules:
+1. PyAudio
+2. Aubio
+3. SpeechRecognition(?)
+4. TKinter
+
+Proposal: A Karaoke Machine that grades your voice based on pitch and lyrics(optional)
+Problem:  How can I grade the singer’s singing AND create lyrics onscreen while the karaoke song is playing?
+
+PART A: pitch grading algorithm
+Step#1: (Threading) Learn how to record singer’s singing and play karaoke music at the same time
+
+Step#2: (CaptureFrequency Algorithm) Learn how to find the frequency of the singer’s audio file and input it into an array or some data structure.
+
+Step#3: Apply CaptureFrequency algorithm to the karaoke song, which is the score we will compare the singer’s singing to. Store the score as some kind of variable. Apply CaptureFrequency algorithm to the singer’s audio file and store it a temporary variable. 
+
+Step#4: (Pitch Grading Algorithm) find an algorithm to compare score variable and singer variable. The output should be a score out of 100.
+
+PART B: lyric printing(manual)
+Step #1: manually create a list of tuples of lyric verses(string) and timing(int) and print each index based on the timing.
+
+****UPGRADED/OPTIONAL****
+PART C: Lyric grading algorithm
+Step #1: learn to use SpeechRecognition module
+Step#2: Apply the speech recognition module to the score audio file and output the lyrics into an array of words.
+Apply the function to the singer’s audio file as well.
+Step #3: (Lyric grading algorithm) Find an algorithm to match as many as words in the singer lyric array to the score lyric array
+
+Step#4: Combine lyric grading score and pitch grading score such that each part gets 50% out of the total 100%
+
+Step#5: Present score to singer at the end of the song. 
